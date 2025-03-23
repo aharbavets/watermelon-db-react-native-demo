@@ -23,6 +23,8 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import SQLiteAdapter from '@nozbe/watermelondb/adapters/sqlite';
+import {Database} from '@nozbe/watermelondb';
 
 type SectionProps = PropsWithChildren<{
   title: string;
