@@ -39,7 +39,6 @@ export const CreateNoteScreen: React.FC = () => {
                 await notesCollection.create((note: Note) => {
                     note.title = title;
                     note.content = content;
-                    note.createdAt = new Date();
                 });
             });
 
