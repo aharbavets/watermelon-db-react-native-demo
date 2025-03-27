@@ -1,4 +1,4 @@
-package com.watermelondbreactnativetest
+package com.watermelonDbReactNativeDemo
 
 import android.app.Application
 import com.facebook.react.PackageList
