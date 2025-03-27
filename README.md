@@ -10,7 +10,15 @@ With Metro running, open a new terminal window/pane from the root of your React 
 
 ### Android
 
+#### IMPORTANT!: To build android libraries run the command manually as React Native not always does it or make sure it's added to `postinstall`:
 ```sh
+cd android
+./gradlew generateCodegenArtifactsFromSchema
+cd ..
+``
+
+The build and run Android app
+``
 # Using npm
 npm run android
 
